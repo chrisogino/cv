@@ -1,0 +1,9 @@
+section,in_resume,title,institution,loc,start,end,description_1,description_2,description_3
+education,TRUE,J.D.,Rutgers Law School,"Camden, NJ",2011,2014,Cum Laude,NA,NA
+education,TRUE,B.A. Journalism,Arizona State University,"Tempe, AZ",2007,2011,Film and Media Studies,NA,NA
+education,TRUE,B.A. Film and Media Studies,Arizona State University,"Tempe, AZ",2007,2011,Journalism and Mass Communications,NA,NA
+research_positions,TRUE,Legal Research Assistant,Player-Authors Project,Rutgers School of Law,2013,2013,Legal analysis of copyright law implications on video game user-generated content,Collection of samples and legal analysis on copyright law implications,NA
+industry_positions,TRUE,Senior Business Data Analyst,Intuit,"Tucson,AZ",2020,Current,Wrangled data and created dashboards for sales analysis,Used systems to automate data ingestion and creation,"QlikSense,Quickbase,SQL,Python"
+industry_positions,TRUE,Senior Data Analyst,Elevate Services,"Tempe, AZ",2018,2020,Built systems to automate data intake for legal bill review,Analyzed data and prepared reports,NA
+data_science_writings,TRUE,[The Player-Authors Project](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2361758),Rutgers School of Law,NA,NA,2013,Used empirical methods to study how user-generated content (UGC) related to US copyright law at the time,Funded by National Science Foundation,NA
+academic_articles,TRUE,[Use of Video Game Screenshots in Scholarly Publications: Recommendations from the Digital Games Research Association](https://dl.digra.org/public/journals/2/whitepaper1.pdf), Digital Games Research Association (DiGRA),N/A,2014,2014,"Memorandum to Professor Greg Lastowka from Christopher Ogino",NA,NA
