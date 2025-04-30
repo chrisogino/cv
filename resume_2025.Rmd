@@ -19,7 +19,7 @@ library(glue)
 library(tidyverse)
 
 # Set this to true to have links turned into footnotes at the end of the document
-PDF_EXPORT <- FALSE
+PDF_EXPORT <- TRUE
 
 # Holds all the links that were inserted for placement at the end
 links <- c()
@@ -65,10 +65,9 @@ Contact {#contact}
 
 
 - <i class="fa fa-envelope"></i> chrisogino@gmail.com
-- <i class="fa fa-twitter"></i> chris_ogino
-- <i class="fa fa-github"></i> github.com/chrisogino
-- <i class="fa fa-link"></i> https://www.linkedin.com/in/christopherogino
-- <i class="fa fa-phone"></i> (623) 229-5992
+- <i class="fa fa-github"></i> [Github](https://www.github.com/chrisogino)
+- <i class="fa fa-link"></i> [LinkedIn](https://www.linkedin.com/in/christopherogino)
+- <i class="fa fa-phone"></i> [(623)229-5992](tel:+16232295992)
 
 
 
@@ -91,18 +90,12 @@ build_skill_bars(skills)
 More info {#more-info}
 --------------------------------------------------------------------------------
 
-See full CV at [linkedin.com/in/christopherogino](linkedin.com/in/christopherogino) for more complete list of positions, skills, and certifications
 
+```{r}
+intro_text <- "See full CV at [linkedin.com/in/christopherogino](https://www.linkedin.com/in/christopherogino) for more complete list of positions, skills, and certifications"
 
-Disclaimer {#disclaimer}
---------------------------------------------------------------------------------
-
-Made w/ [**pagedown**](https://github.com/rstudio/pagedown). 
-
-Source code: [github.com/chrisogino/cv](https://github.com/chrisogino/cv).
-
-Last updated on `r Sys.Date()`.
-
+cat(sanitize_links(intro_text))
+```
 
 
 
@@ -120,6 +113,20 @@ cat(sanitize_links(intro_text))
 ```
 
 
+Industry Experience {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+I have worked in several different roles. I began my career doing legal work, then transitioned into data analysis.
+
+```{r}
+print_section(position_data, 'industry_positions')
+```
+
+<br>
+<br>
+<br>
+
+
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -134,17 +141,6 @@ cat(sanitize_links(education_text))
 ```{r}
 print_section(position_data, 'education')
 ```
-
-
-Industry Experience {data-icon=suitcase}
---------------------------------------------------------------------------------
-
-I have worked in several different roles. I began my career doing legal work, then transitioned into data analysis.
-
-```{r}
-print_section(position_data, 'industry_positions')
-```
-
 <br>
 <br>
 <br>
