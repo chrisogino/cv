@@ -55,7 +55,7 @@ Aside
 if(PDF_EXPORT){
   cat("View this CV online with links at https://chrisogino.github.io/cv")
 } else {
-  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/chrisogino/cv/raw/master/ogino_cv.pdf)")
+  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/chrisogino/cv/raw/master/ogino_resume2025.pdf)")
 }
 ```
 
@@ -79,24 +79,14 @@ Language Skills {#skills}
 ```{r}
 skills <- tribble(
   ~skill,               ~level,
-  "SQL",                4,
-  "Python",             3,
-  "R",                  4,
+  "QlikScript",             5,
+  "SQL",                5,
+  "Python",             3.75,
+  "R",                  5,
   "Javascript",         1
 )
 build_skill_bars(skills)
 ```
-
-
-
-Projects {#projects}
---------------------------------------------------------------------------------
-
-All projects available at `github.com/chrisogino/<name>`
-- `montyhall`: R package to create montyhall game
-- `chrisogino.github.io`: Custom web site via Beautiful Jeykll
-- `cv`: Resume builder
-
 
 More info {#more-info}
 --------------------------------------------------------------------------------
@@ -116,7 +106,7 @@ Last updated on `r Sys.Date()`.
 
 
 
-Main
+Main 
 ================================================================================
 
 Christopher Ogino {#title}
@@ -124,10 +114,7 @@ Christopher Ogino {#title}
 
 
 ```{r}
-intro_text <- "This is my Lab 06 submission and resume.
-
-Currently searching for data science position
-"
+intro_text <- "7 years of experience as a full-time data analyst. Currently searching for data analyst position."
 
 cat(sanitize_links(intro_text))
 ```
@@ -137,35 +124,22 @@ cat(sanitize_links(intro_text))
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
 
-::: aside
-I am formally educated as a lawyer and journalist. I am pursuing a degree in data analytics
-:::
+
+```{r}
+education_text <- "I am formally educated as a lawyer and journalist, currently pursuing M.S. in Program Evaluation and Data Analytics."
+
+cat(sanitize_links(education_text))
+```
 
 ```{r}
 print_section(position_data, 'education')
 ```
 
 
-
-Research Experience {data-icon=laptop}
---------------------------------------------------------------------------------
-
-::: aside
-Was a legal research assistant on a project that involved data collection and legal analysis
-:::
-
-```{r}
-print_section(position_data, 'research_positions')
-```
-
-
-
 Industry Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
-::: aside
-I have worked in several different roles. As a lawyer, I began doing legal work then transitioned into data analysis.
-:::
+I have worked in several different roles. I began my career doing legal work, then transitioned into data analysis.
 
 ```{r}
 print_section(position_data, 'industry_positions')
@@ -175,46 +149,6 @@ print_section(position_data, 'industry_positions')
 <br>
 <br>
 
-Teaching Experience {data-icon=chalkboard-teacher}
---------------------------------------------------------------------------------
-```{r}
-cat('I have no academic teaching experience to speak of, I am afraid. I have taught several co-workers and have led many informative meetings to teach various topics, ranging from script loops to data ingestion to dashboard usage
-')
-```
-
-
-Selected Data Science Writing {data-icon=chart-line}
---------------------------------------------------------------------------------
-
-
-::: aside
-Including the Player Authors Project, which I was an assistant on. DISCLAIMER - I am not the author
-:::
-
-```{r}
-print_section(position_data, 'data_science_writings')
-```
-
-
-
-Selected Press (About)  {data-icon=newspaper}
---------------------------------------------------------------------------------
-
-::: aside
-I don't usually appear in publication. Including the Player Authors Project, which I was an assistant on.
-:::
-
-```{r}
-print_section(position_data, 'about_me_press')
-```
-
-
-Selected Publications, Posters, and Talks {data-icon=book}
---------------------------------------------------------------------------------
-
-```{r}
-print_section(position_data, 'academic_articles')
-```
 
 Certifications {data-icon=certificate}
 --------------------------------------------------------------------------------

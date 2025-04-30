@@ -1,15 +1,16 @@
 section,in_resume,title,institution,loc,start,end,description_1,description_2,description_3
 education,TRUE,(In Progress) M.S. - Program Evaluation and Data Analytics,Arizona State University,"Tempe, AZ",2023,Current,In Progress,NA,NA
 education,TRUE,Certificate of Business Intelligence and Analytics,University of Arizona,"Tucson, AZ",2021,2022,NA,NA,NA
-education,TRUE,J.D.,Rutgers Law School,"Camden, NJ",2011,2014,Cum Laude,NA,NA
+education,TRUE,Juris Doctor,Rutgers Law School,"Camden, NJ",2011,2014,Cum Laude,NA,NA
 education,TRUE,B.A. - Journalism,Arizona State University,"Tempe, AZ",2007,2011,Film and Media Studies,NA,NA
 education,TRUE,B.A. - Film and Media Studies,Arizona State University,"Tempe, AZ",2007,2011,Journalism and Mass Communications,NA,NA
-research_positions,TRUE,Legal Research Assistant,Player-Authors Project,Rutgers Law School,2013,2013,Legal analysis of copyright law implications on video game user-generated content,Collection of samples and legal analysis on copyright law implications,NA
-industry_positions,TRUE,Senior Business Data Analyst,Intuit,"Tucson,AZ",2020,Current,Wrangled data and created dashboards for sales analysis,Used systems to automate data ingestion and creation,"QlikSense,Quickbase,SQL,Python"
-industry_positions,TRUE,Senior Data Analyst,Elevate Services,"Tempe, AZ",2018,2020,Built systems to automate data intake for legal bill review,Analyzed data and prepared reports,NA
-about_me_press,TRUE,[The Player-Authors Project](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2361758),Rutgers Law School,NA,NA,2013,Used empirical methods to study how user-generated content (UGC) related to US copyright law at the time,Funded by National Science Foundation,NA
-data_science_writings,TRUE,[The Player-Authors Project](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2361758),Rutgers Law School,NA,NA,2013,Used empirical methods to study how user-generated content (UGC) related to US copyright law at the time,Funded by National Science Foundation,NA
-academic_articles,TRUE,[Use of Video Game Screenshots in Scholarly Publications: Recommendations from the Digital Games Research Association](https://dl.digra.org/public/journals/2/whitepaper1.pdf), Digital Games Research Association (DiGRA),N/A,2014,2014,"Memorandum to Professor Greg Lastowka from Christopher Ogino",NA,NA
+research_positions,FALSE,Legal Research Assistant,Player-Authors Project,Rutgers Law School,2013,2013,Legal analysis of copyright law implications on video game user-generated content,Collection of samples and legal analysis on copyright law implications,NA
+industry_positions,TRUE,Senior Business Data Analyst,Intuit,"Tucson,AZ",2021,2025,"Wrangled data from multiple sources, created dashboards for sales training analysis","Used systems to automate data ingestion, as well as designed data schemas for performance/coaching tracking","QlikSense, Quickbase, SQL, Python, R, Databricks"
+industry_positions,TRUE,Business Data Analyst,Pyramid Consulting,"Tucson,AZ",2020,2021,"Wrangled data from multiple sources, created dashboards for sales training analysis",Contractor placement at Intuit,NA
+industry_positions,TRUE,Senior Data Analyst,Elevate Services,"Tempe, AZ",2018,2020,Built systems to automate data intake for legal bill review,Analyzed data and prepared reports,"Excel, SQL, Ruby on Rails, QlikView"
+about_me_press,FALSE,[The Player-Authors Project](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2361758),Rutgers Law School,NA,NA,2013,Used empirical methods to study how user-generated content (UGC) related to US copyright law at the time,Funded by National Science Foundation,NA
+data_science_writings,FALSE,[The Player-Authors Project](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2361758),Rutgers Law School,NA,NA,2013,Used empirical methods to study how user-generated content (UGC) related to US copyright law at the time,Funded by National Science Foundation,NA
+academic_articles,TRUE,[Use of Video Game Screenshots in Scholarly Publications: Recommendations from the Digital Games Research Association](https://dl.digra.org/public/journals/2/whitepaper1.pdf), Digital Games Research Association (DiGRA),N/A,2014,2014,Memorandum to Professor Greg Lastowka from Christopher Ogino,NA,NA
 certifications,TRUE,Arizona Bar Membership - 032780,State Bar of Arizona,Arizona,2016,Current,Inactive,NA,NA
 certifications,TRUE,California Bar Membership - 301884,State Bar of California,California,2014,Current,Inactive,NA,NA
 certifications,TRUE,Automation Pro I Certificate,Workato,NA,2023,2025,NA,NA,NA
